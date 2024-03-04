@@ -2,7 +2,6 @@ tickets = int(input('При заказе от 4 билетов скидка 10%\
 while tickets < 0:
     tickets = int(input('Количество билетов не может быть отрицательным\nВведите количество билетов: '))
 if not tickets:
-    print(tickets)
     print('Ждём вас снова')
     quit()
 
